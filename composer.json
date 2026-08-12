@@ -49,7 +49,7 @@
     "require-dev": {
         "friendsofphp/php-cs-fixer": "^3.94",
         "phpstan/phpstan": "^2.1",
-        "phpunit/phpunit": "^12.5",
+        "phpunit/phpunit": "^13.1",
         "rector/rector": "^2.3"
     },
     "autoload": {
@@ -79,7 +79,6 @@
             "@sa",
             "@test"
         ],
-        "docs:examples": "@php docs/generate-examples.php",
         "rector": "vendor/bin/rector process --dry-run",
         "sa": "vendor/bin/phpstan analyse --memory-limit=-1",
         "showcase": "@php examples/showcase.php",
