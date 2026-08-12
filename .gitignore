@@ -6,4 +6,3 @@
 /phpstan.neon
 /phpunit.xml
 /.claude/settings.local.json
-.DS_Store
