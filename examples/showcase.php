@@ -6,7 +6,7 @@ declare(strict_types=1);
  * Renders at least two examples per code type and writes a self-contained
  * gallery to examples/output/index.html (the showroom).
  *
- * Run: composer showcase   (or: php examples/showcase.php)
+ * Run: php examples/showcase.php
  */
 
 use Atelier\Barcode\Codabar;
@@ -302,7 +302,7 @@ $html = <<<HTML
 <main>
 $sections
 </main>
-<footer>Regenerate with <code>composer showcase</code>. Individual SVGs are written alongside this page in <code>examples/output/</code>.</footer>
+<footer>Regenerate with <code>php examples/showcase.php</code>. Individual SVGs are written alongside this page in <code>examples/output/</code>.</footer>
 </body>
 </html>
 

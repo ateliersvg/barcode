@@ -3,7 +3,7 @@
     "description": "PHP library that builds QR codes, matrix codes, and barcodes as SVG, PNG, or GIF",
     "license": "MIT",
     "type": "library",
-    "homepage": "https://github.com/ateliersvg/barcode",
+    "homepage": "https://ateliersvg.com/barcode/",
     "keywords": [
         "qrcode",
         "qr-code",
@@ -36,7 +36,8 @@
     "authors": [
         {
             "name": "Simon André",
-            "email": "smn.andre@gmail.com"
+            "email": "smn.andre@gmail.com",
+            "homepage": "https://smnandre.dev"
         }
     ],
     "minimum-stability": "stable",
@@ -71,7 +72,6 @@
         }
     },
     "scripts": {
-        "coverage": "vendor/bin/phpunit --coverage-text",
         "cs": "vendor/bin/php-cs-fixer fix --dry-run --diff",
         "cs:fix": "vendor/bin/php-cs-fixer fix",
         "qa": [
@@ -79,9 +79,7 @@
             "@sa",
             "@test"
         ],
-        "rector": "vendor/bin/rector process --dry-run",
         "sa": "vendor/bin/phpstan analyse --memory-limit=-1",
-        "showcase": "@php examples/showcase.php",
         "test": "vendor/bin/phpunit"
     }
 }
